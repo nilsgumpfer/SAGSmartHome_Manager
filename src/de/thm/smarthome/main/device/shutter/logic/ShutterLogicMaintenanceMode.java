@@ -1,5 +1,6 @@
 package de.thm.smarthome.main.device.shutter.logic;
 
+import de.thm.smarthome.main.device.shutter.adapter.IShutter;
 import de.thm.smarthome.main.device.shutter.model.IShutterModel;
 
 /**
@@ -7,8 +8,9 @@ import de.thm.smarthome.main.device.shutter.model.IShutterModel;
  */
 public class ShutterLogicMaintenanceMode implements IShutterLogic {
     private IShutterModel model;
+    private IShutter device;
 
-    public ShutterLogicMaintenanceMode(IShutterModel model){}
+    public ShutterLogicMaintenanceMode(IShutterModel model, IShutter device){}
 
     @Override
     public int moveUp() {

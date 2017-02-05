@@ -1,5 +1,6 @@
 package de.thm.smarthome.main.device.heating.logic;
 
+import de.thm.smarthome.main.device.heating.adapter.IHeating;
 import de.thm.smarthome.main.device.heating.model.IHeatingModel;
 
 /**
@@ -7,8 +8,9 @@ import de.thm.smarthome.main.device.heating.model.IHeatingModel;
  */
 public class HeatingLogicMaintenanceMode implements IHeatingLogic {
     private IHeatingModel model;
+    private IHeating device;
 
-    public HeatingLogicMaintenanceMode(IHeatingModel model){}
+    public HeatingLogicMaintenanceMode(IHeatingModel model,IHeating device){}
 
     @Override
     public int setTemperature(double temperature) {

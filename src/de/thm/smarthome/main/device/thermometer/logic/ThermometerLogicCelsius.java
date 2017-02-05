@@ -1,5 +1,6 @@
 package de.thm.smarthome.main.device.thermometer.logic;
 
+import de.thm.smarthome.main.device.thermometer.adapter.IThermometer;
 import de.thm.smarthome.main.device.thermometer.model.IThermometerModel;
 
 /**
@@ -7,8 +8,9 @@ import de.thm.smarthome.main.device.thermometer.model.IThermometerModel;
  */
 public class ThermometerLogicCelsius implements IThermometerLogic {
     private IThermometerModel model;
+    private IThermometer device;
 
-    public ThermometerLogicCelsius(IThermometerModel model) {
+    public ThermometerLogicCelsius(IThermometerModel model, IThermometer device) {
         this.model = model;
     }
 
