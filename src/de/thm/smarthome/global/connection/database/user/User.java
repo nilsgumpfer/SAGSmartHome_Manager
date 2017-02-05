@@ -1,4 +1,4 @@
-package de.thm.smarthome.main.user;
+package de.thm.smarthome.global.connection.database.user;
 
 /**
  * Created by Nils on 28.01.2017.

@@ -1,4 +1,4 @@
-package de.thm.smarthome.main.manager.smarthomemanager.model;
+package de.thm.smarthome.main.manager.model;
 
 import de.thm.smarthome.main.device.heating.device.SmartHeating;
 import de.thm.smarthome.main.device.shutter.device.SmartShutter;
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by Nils on 27.01.2017.
  */
-public class SmartHomeManagerModel implements ISmartHomeManagerModel {
+public class SmartHomeModel implements ISmartHomeModel {
     private SmartHeating smartHeating;
     private SmartWeatherStation smartWeatherStation;
     private SmartThermometer smartThermometer;
@@ -49,6 +49,11 @@ public class SmartHomeManagerModel implements ISmartHomeManagerModel {
     @Override
     public List<SmartShutter> getSmartShutters() {
         return smartShutters;
+    }
+
+    @Override
+    public SmartShutter getSmartShutter(String id) {
+        return smartShutters.get(0);
     }
 
     @Override

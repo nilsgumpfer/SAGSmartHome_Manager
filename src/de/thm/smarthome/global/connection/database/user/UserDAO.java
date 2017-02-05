@@ -1,4 +1,4 @@
-package de.thm.smarthome.main.user;
+package de.thm.smarthome.global.connection.database.user;
 
 import java.util.List;
 

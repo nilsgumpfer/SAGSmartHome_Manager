@@ -1,6 +1,6 @@
-package de.thm.smarthome.main.manager.smarthomemanager.controller.usermanager;
+package de.thm.smarthome.main.manager.controller.usermanager;
 
-import de.thm.smarthome.main.user.User;
+import de.thm.smarthome.global.connection.database.user.User;
 
 import java.util.List;
 
@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class UserManager implements IUserManager{
     private static UserManager ourInstance = new UserManager();
+
     private List<User> loggedInUsers;
     private List<User> allUsers;
 
