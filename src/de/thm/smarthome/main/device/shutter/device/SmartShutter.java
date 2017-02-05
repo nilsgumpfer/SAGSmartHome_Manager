@@ -1,20 +1,16 @@
 package de.thm.smarthome.main.device.shutter.device;
 
 import de.thm.smarthome.global.interfaces.ISmartDevice;
-import de.thm.smarthome.main.device.shutter.adapter.IShutter;
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
 import de.thm.smarthome.main.device.shutter.controller.IShutterController;
-import de.thm.smarthome.main.device.shutter.model.IShutterModel;
-import de.thm.smarthome.main.device.shutter.view.IShutterViewController;
 
 /**
  * Created by Nils on 27.01.2017.
  */
-public class SmartShutter implements ISmartDevice{
+public class SmartShutter extends AObservable implements ISmartDevice, IObserver{
 
-    private IShutter device;
     private IShutterController controller;
-    private IShutterModel model;
-    private IShutterViewController view;
 
     public int moveUp() {
         return 0;
@@ -35,5 +31,10 @@ public class SmartShutter implements ISmartDevice{
     @Override
     public String getName() {
         return null;
+    }
+
+    @Override
+    public void update(AObservable o, Object change) {
+
     }
 }

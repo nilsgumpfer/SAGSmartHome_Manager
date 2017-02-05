@@ -8,4 +8,9 @@ import de.thm.smarthome.global.observer.AObservable;
  */
 public class ThermometerController extends AObservable implements IThermometerController {
     private IThermometerLogic logic;
+
+    @Override
+    public double getTemperature() {
+        return 0;
+    }
 }

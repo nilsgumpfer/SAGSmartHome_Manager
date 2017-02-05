@@ -1,11 +1,13 @@
 package de.thm.smarthome.main.device.shutter.adapter;
 
 import de.electricshutter.driver.shutter.ElectricShutterDriver;
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
 
 /**
  * Created by Nils on 27.01.2017.
  */
-public class ElectricShutterAdapter implements IShutter{
+public class ElectricShutterAdapter extends AObservable implements IShutter, IObserver{
 
     ElectricShutterDriver driver;
 
@@ -34,5 +36,10 @@ public class ElectricShutterAdapter implements IShutter{
     @Override
     public boolean isDown() {
         return driver.isDown();
+    }
+
+    @Override
+    public void update(AObservable o, Object change) {
+
     }
 }

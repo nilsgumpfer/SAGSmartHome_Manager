@@ -1,5 +1,7 @@
 package de.thm.smarthome.main.device.heating.adapter;
 
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
 import de.thm.smarthome.main.device.heating.memento.HeatingMemento;
 import de.viessmann.driver.heating.ViessmannHeatingDriver;
 
@@ -9,7 +11,7 @@ import java.util.List;
  * Created by Nils on 27.01.2017.
  * Changed 28.01.2017
  */
-public class ViessmannHeatingAdapter implements IHeating {
+public class ViessmannHeatingAdapter extends AObservable implements IHeating, IObserver{
 
     ViessmannHeatingDriver driver;
 
@@ -55,6 +57,11 @@ public class ViessmannHeatingAdapter implements IHeating {
 
     @Override
     public void setMemento(HeatingMemento memento) {
+
+    }
+
+    @Override
+    public void update(AObservable o, Object change) {
 
     }
 }

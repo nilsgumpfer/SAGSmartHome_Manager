@@ -1,11 +1,13 @@
 package de.thm.smarthome.main.device.weatherstation.adapter;
 
 import de.conrad.driver.weatherstation.ConradWeatherStationDriver;
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
 
 /**
  * Created by Nils on 27.01.2017.
  */
-public class ConradWeatherStationAdapter implements IWeatherStation{
+public class ConradWeatherStationAdapter extends AObservable implements IWeatherStation, IObserver{
 
     ConradWeatherStationDriver driver;
 
@@ -32,5 +34,10 @@ public class ConradWeatherStationAdapter implements IWeatherStation{
     @Override
     public double getRainfallAmount() {
         return driver.getRainfallAmount();
+    }
+
+    @Override
+    public void update(AObservable o, Object change) {
+
     }
 }

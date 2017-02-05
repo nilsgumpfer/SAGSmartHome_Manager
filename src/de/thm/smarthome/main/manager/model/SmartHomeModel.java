@@ -1,5 +1,7 @@
 package de.thm.smarthome.main.manager.model;
 
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
 import de.thm.smarthome.main.device.heating.device.SmartHeating;
 import de.thm.smarthome.main.device.shutter.device.SmartShutter;
 import de.thm.smarthome.main.device.thermometer.device.SmartThermometer;
@@ -10,7 +12,7 @@ import java.util.List;
 /**
  * Created by Nils on 27.01.2017.
  */
-public class SmartHomeModel implements ISmartHomeModel {
+public class SmartHomeModel extends AObservable implements ISmartHomeModel, IObserver{
     private SmartHeating smartHeating;
     private SmartWeatherStation smartWeatherStation;
     private SmartThermometer smartThermometer;
@@ -59,5 +61,10 @@ public class SmartHomeModel implements ISmartHomeModel {
     @Override
     public void addSmartShutter(SmartShutter smartShutter) {
         smartShutters.add(smartShutter);
+    }
+
+    @Override
+    public void update(AObservable o, Object change) {
+
     }
 }

@@ -8,4 +8,19 @@ import de.thm.smarthome.global.observer.AObservable;
  */
 public class ShutterController extends AObservable implements IShutterController {
     private IShutterLogic logic;
+
+    @Override
+    public int moveUp() {
+        return 0;
+    }
+
+    @Override
+    public int moveDown() {
+        return 0;
+    }
+
+    @Override
+    public String getName() {
+        return null;
+    }
 }

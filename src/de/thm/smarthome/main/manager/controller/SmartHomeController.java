@@ -1,9 +1,14 @@
 package de.thm.smarthome.main.manager.controller;
 
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
 import de.thm.smarthome.main.device.heating.device.SmartHeating;
 import de.thm.smarthome.main.device.shutter.device.SmartShutter;
 import de.thm.smarthome.main.device.thermometer.device.SmartThermometer;
 import de.thm.smarthome.main.device.weatherstation.device.SmartWeatherStation;
+import de.thm.smarthome.main.manager.controller.eventmanager.EventManager;
+import de.thm.smarthome.main.manager.controller.eventmanager.IEventManager;
+import de.thm.smarthome.main.manager.model.ISmartHomeModel;
 import de.thm.smarthome.main.manager.model.SmartHomeModel;
 
 import java.util.List;
@@ -11,9 +16,10 @@ import java.util.List;
 /**
  * Created by Nils on 28.01.2017.
  */
-public class SmartHomeController implements ISmartHomeController{
+public class SmartHomeController implements ISmartHomeController, IObserver{
     private static SmartHomeController ourInstance = new SmartHomeController();
-    private SmartHomeModel model;
+    private ISmartHomeModel model;
+    private IEventManager eventManager = EventManager.getInstance();
 
     private SmartHomeController(){}
 
@@ -42,4 +48,9 @@ public class SmartHomeController implements ISmartHomeController{
     public SmartShutter getSmartShutter(String id){return null;}
 
     public int addSmartShutter(SmartShutter smartShutter){return 0;}
+
+    @Override
+    public void update(AObservable o, Object change) {
+        eventManager.update(o,change);
+    }
 }
