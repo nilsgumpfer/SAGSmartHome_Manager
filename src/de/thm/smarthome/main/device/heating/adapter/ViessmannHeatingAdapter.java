@@ -51,16 +51,6 @@ public class ViessmannHeatingAdapter extends AObservable implements IHeating, IO
     }
 
     @Override
-    public HeatingMemento getMemento() {
-        return null;
-    }
-
-    @Override
-    public void setMemento(HeatingMemento memento) {
-
-    }
-
-    @Override
     public void update(AObservable o, Object change) {
 
     }

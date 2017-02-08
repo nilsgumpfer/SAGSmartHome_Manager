@@ -52,16 +52,6 @@ public class VaillantHeatingAdapter extends AObservable implements IHeating, IOb
     }
 
     @Override
-    public HeatingMemento getMemento() {
-        return null;
-    }
-
-    @Override
-    public void setMemento(HeatingMemento memento) {
-
-    }
-
-    @Override
     public void update(AObservable o, Object change) {
 
     }
