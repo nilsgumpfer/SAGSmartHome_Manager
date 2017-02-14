@@ -8,6 +8,4 @@ import de.thm.smarthome.main.device.heating.memento.HeatingMemento;
 public interface ITemperatureRelevantDevice {
     int setTemperature(double temperature);
     double getTemperature();
-    HeatingMemento getMemento();
-    void setMemento(HeatingMemento memento);
 }

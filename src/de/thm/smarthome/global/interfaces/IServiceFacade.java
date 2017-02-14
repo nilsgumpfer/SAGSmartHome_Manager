@@ -8,7 +8,7 @@ import java.util.List;
  * Created by Nils on 04.02.2017.
  */
 public interface IServiceFacade {
-    String getServerInfo();
+    String getServerrInfo();
 
     CommandResponseObject createHeating(UserTransferObject authentication, HeatingTransferObject heating);
     CommandResponseObject deleteHeating(UserTransferObject authentication);

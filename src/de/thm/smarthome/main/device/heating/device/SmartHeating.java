@@ -5,13 +5,16 @@ import de.thm.smarthome.global.interfaces.ITemperatureRelevantDevice;
 import de.thm.smarthome.global.observer.AObservable;
 import de.thm.smarthome.global.observer.IObserver;
 import de.thm.smarthome.main.device.heating.controller.IHeatingController;
-import de.thm.smarthome.main.device.heating.memento.HeatingMemento;
 
 /**
  * Created by Nils on 27.01.2017.
  */
 public class SmartHeating extends AObservable implements ITemperatureRelevantDevice, ISmartDevice, IObserver {
     private IHeatingController controller;
+
+    public SmartHeating(IHeatingController controller) {
+        this.controller = controller;
+    }
 
     @Override
     public int setTemperature(double temperature) {
@@ -21,16 +24,6 @@ public class SmartHeating extends AObservable implements ITemperatureRelevantDev
     @Override
     public double getTemperature() {
         return 0;
-    }
-
-    @Override
-    public HeatingMemento getMemento() {
-        return null;
-    }
-
-    @Override
-    public void setMemento(HeatingMemento memento) {
-
     }
 
     @Override

@@ -11,6 +11,10 @@ import de.thm.smarthome.main.device.heating.model.IHeatingModel;
 public class HeatingController extends AObservable implements IHeatingController {
     private IHeatingLogic logic;
 
+    public HeatingController(IHeatingLogic logic) {
+        this.logic = logic;
+    }
+
     @Override
     public int setTemperature(double temperature) {
         return 0;

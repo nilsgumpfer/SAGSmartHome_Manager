@@ -2,7 +2,6 @@ package de.thm.smarthome.main.device.heating.adapter;
 
 import de.thm.smarthome.global.observer.AObservable;
 import de.thm.smarthome.global.observer.IObserver;
-import de.thm.smarthome.main.device.heating.memento.HeatingMemento;
 import de.viessmann.driver.heating.ViessmannHeatingDriver;
 
 import java.util.List;
