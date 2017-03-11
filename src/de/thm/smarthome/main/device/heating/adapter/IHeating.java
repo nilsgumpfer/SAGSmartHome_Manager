@@ -13,6 +13,4 @@ public interface IHeating {
     void standby();
     void wakeup();
     List<String> getLogs();
-    HeatingMemento getMemento();
-    void setMemento(HeatingMemento memento);
 }

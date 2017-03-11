@@ -1,26 +1,43 @@
 package de.thm.smarthome.main.device.weatherstation.device;
 
 import de.thm.smarthome.global.interfaces.ISmartDevice;
-import de.thm.smarthome.main.device.weatherstation.adapter.IWeatherStation;
-import de.thm.smarthome.main.device.weatherstation.controller.IWeatherStationController;
-import de.thm.smarthome.main.device.weatherstation.controller.WeatherStationController;
-import de.thm.smarthome.main.device.weatherstation.model.IWeatherStationModel;
-import de.thm.smarthome.main.device.weatherstation.model.WeatherStationModel;
-import de.thm.smarthome.main.device.weatherstation.view.IWeatherStationViewController;
-import de.thm.smarthome.main.device.weatherstation.view.WeatherStationViewController;
+import de.thm.smarthome.global.observer.AObservable;
+import de.thm.smarthome.global.observer.IObserver;
+import de.thm.smarthome.main.device.weatherstation.logic.IWeatherStationLogic;
 
 /**
  * Created by Nils on 27.01.2017.
  */
-public class SmartWeatherStation implements ISmartDevice{
+public class SmartWeatherStation extends AObservable implements ISmartDevice, IObserver{
+    private IWeatherStationLogic logic;
 
-    private IWeatherStation device;
-    private IWeatherStationController controller;
-    private IWeatherStationModel model;
-    private IWeatherStationViewController view;
+    public double getWindVelocity() {
+        return 0;
+    }
+
+    public double getRainfallAmount() {
+        return 0;
+    }
+
+    public double getAirHumidity() {
+        return 0;
+    }
+
+    public double getAirPressure() {
+        return 0;
+    }
+
+    public double getTemperature() {
+        return 0;
+    }
 
     @Override
     public String getName() {
         return null;
+    }
+
+    @Override
+    public void update(AObservable o, Object change) {
+
     }
 }
