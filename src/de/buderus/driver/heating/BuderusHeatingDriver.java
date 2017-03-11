@@ -17,6 +17,8 @@ public class BuderusHeatingDriver {
     private boolean standby;
     private List<String> listOfLogs = new ArrayList<>();
 
+    /*Hallo Nils*/
+
     public BuderusHeatingDriver(String productSerialNumber){
 
         //TODO: Initialize and connect to heating!
