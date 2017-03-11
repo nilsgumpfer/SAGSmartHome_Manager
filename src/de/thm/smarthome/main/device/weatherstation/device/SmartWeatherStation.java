@@ -3,13 +3,13 @@ package de.thm.smarthome.main.device.weatherstation.device;
 import de.thm.smarthome.global.interfaces.ISmartDevice;
 import de.thm.smarthome.global.observer.AObservable;
 import de.thm.smarthome.global.observer.IObserver;
-import de.thm.smarthome.main.device.weatherstation.controller.IWeatherStationController;
+import de.thm.smarthome.main.device.weatherstation.logic.IWeatherStationLogic;
 
 /**
  * Created by Nils on 27.01.2017.
  */
 public class SmartWeatherStation extends AObservable implements ISmartDevice, IObserver{
-    private IWeatherStationController controller;
+    private IWeatherStationLogic logic;
 
     public double getWindVelocity() {
         return 0;

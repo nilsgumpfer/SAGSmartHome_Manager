@@ -1,6 +1,5 @@
 package de.thm.smarthome.global.interfaces;
 
-import de.thm.smarthome.main.device.heating.memento.HeatingMemento;
 
 /**
  * Created by Nils on 28.01.2017.

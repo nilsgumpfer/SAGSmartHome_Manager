@@ -2,8 +2,8 @@ package de.thm.smarthome.main.manager.controller.requestmanager;
 
 import de.thm.smarthome.global.interfaces.IServiceFacade;
 import de.thm.smarthome.global.transfer.*;
-import de.thm.smarthome.main.manager.controller.ISmartHomeController;
-import de.thm.smarthome.main.manager.controller.SmartHomeController;
+import de.thm.smarthome.main.manager.controller.IDeviceManager;
+import de.thm.smarthome.main.manager.controller.DeviceManager;
 import de.thm.smarthome.main.manager.controller.commandmanager.CommandManager;
 import de.thm.smarthome.main.manager.controller.commandmanager.ICommandManager;
 import de.thm.smarthome.main.manager.controller.usermanager.IUserManager;
@@ -18,7 +18,7 @@ import java.util.List;
 public class RequestManager implements IServiceFacade {
     private static RequestManager ourInstance = new RequestManager();
 
-    private ISmartHomeController smartHomeController = SmartHomeController.getInstance();
+    private IDeviceManager smartHomeController = DeviceManager.getInstance();
     private ICommandManager commandManager = CommandManager.getInstance();
     private IUserManager userManager = UserManager.getInstance();
 
@@ -34,7 +34,7 @@ public class RequestManager implements IServiceFacade {
     }
 
     @Override
-    public String getServerInfo() {
+    public String getServerrInfo() {
         return null;
     }
 

@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by Nils on 05.02.2017.
  */
-public interface ISmartHomeController {
+public interface IDeviceManager {
     SmartHeating getSmartHeating();
     List<SmartShutter> getSmartShutters();
     SmartThermometer getSmartThermometer();

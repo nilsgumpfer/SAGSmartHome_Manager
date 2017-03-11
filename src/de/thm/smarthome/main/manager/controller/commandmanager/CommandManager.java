@@ -1,8 +1,8 @@
 package de.thm.smarthome.main.manager.controller.commandmanager;
 
 import de.thm.smarthome.global.command.ICommand;
-import de.thm.smarthome.main.manager.controller.ISmartHomeController;
-import de.thm.smarthome.main.manager.controller.SmartHomeController;
+import de.thm.smarthome.main.manager.controller.IDeviceManager;
+import de.thm.smarthome.main.manager.controller.DeviceManager;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class CommandManager implements ICommandManager{
     private static CommandManager ourInstance = new CommandManager();
 
-    private ISmartHomeController smartHomeController = SmartHomeController.getInstance();
+    private IDeviceManager smartHomeController = DeviceManager.getInstance();
     private List<ICommand> invokedCommands;
 
     private CommandManager() {}

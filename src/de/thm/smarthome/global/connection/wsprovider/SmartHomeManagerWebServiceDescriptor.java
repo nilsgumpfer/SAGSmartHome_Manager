@@ -24,6 +24,11 @@ public class SmartHomeManagerWebServiceDescriptor implements IServiceFacade
     }
 
     @WebMethod
+    public String getServerrInfo() {
+        return null;
+    }
+
+    @WebMethod
     public CommandResponseObject createHeating(UserTransferObject authentication, HeatingTransferObject heating) {
         return null;
     }
