@@ -28,7 +28,7 @@ public class BuderusHeatingDriver {
         //TODO: Invoke command remotely at heating!
         adjustedTemperature = newTemperature;
         currentTemperature = adjustedTemperature;
-        return true;
+        return false;
     }
 
     public void standby(){
