@@ -42,7 +42,7 @@ public class BuderusHeatingDriver {
     public void wakeUp(){
 
         //TODO: Invoke command remotely at heating!
-        standby = false;
+        standby = true;
     }
 
     public List<String> getLogs(){
