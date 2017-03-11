@@ -17,8 +17,7 @@ public class BuderusHeatingDriver {
     private boolean standby;
     private List<String> listOfLogs = new ArrayList<>();
 
-
-    //TEST PUSH
+    /*Hallo Nils!!*/
 
     public BuderusHeatingDriver(String productSerialNumber){
 
@@ -31,7 +30,7 @@ public class BuderusHeatingDriver {
         //TODO: Invoke command remotely at heating!
         adjustedTemperature = newTemperature;
         currentTemperature = adjustedTemperature;
-        return false;
+        return true;
     }
 
     public void standby(){
