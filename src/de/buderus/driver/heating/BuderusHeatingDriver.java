@@ -24,6 +24,8 @@ public class BuderusHeatingDriver {
 
     //Heinrich Mettmann
 
+    ///BLABLABLABLA Nils
+
     public BuderusHeatingDriver(String productSerialNumber){
 
         //TODO: Initialize and connect to heating!

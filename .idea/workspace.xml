@@ -62,16 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SmartHeating.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/heating/device/SmartHeating.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SmartShutter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/shutter/device/SmartShutter.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,8 +125,30 @@
       <file leaf-file-name="BuderusHeatingDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="442">
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConradWeatherStationDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/conrad/driver/weatherstation/ConradWeatherStationDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -171,6 +183,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -184,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/smarthomemanager/SmartHomeController.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/smarthomemanager/controller/commandmanager/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/controller/eventmanager/IEventManager.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/controller/eventmanager/EventManager.java" />
@@ -234,6 +246,7 @@
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/controller/requestmanager/RequestManager.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/vpp/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java" />
       </list>
     </option>
@@ -1036,7 +1049,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489610229329</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="heinrich">
+      <created>1489612168066</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1489612168066</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1135,7 +1155,8 @@
     <MESSAGE value="gitignore added" />
     <MESSAGE value="gitignore added 2" />
     <MESSAGE value="gitignore new" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore new" />
+    <MESSAGE value="heinrich" />
+    <option name="LAST_COMMIT_MESSAGE" value="heinrich" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1148,14 +1169,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/shutter/logic/IShutterLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/shutter/controller/ShutterController.java" />
     <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/heating/model/IHeatingModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1459,11 +1472,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/conrad/driver/weatherstation/ConradWeatherStationDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
