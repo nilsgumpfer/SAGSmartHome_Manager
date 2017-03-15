@@ -19,7 +19,10 @@ public class BuderusHeatingDriver {
 
     /*Teeeeeeeeeeest*/
 
-    //Test von Karle xD
+    //Sven
+    //Tim
+
+    //Heinrich Mettmann
 
     public BuderusHeatingDriver(String productSerialNumber){
 
