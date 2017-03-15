@@ -19,6 +19,8 @@ public class BuderusHeatingDriver {
 
     /*Teeeeeeeeeeest*/
 
+    //Test von Karle xD
+
     public BuderusHeatingDriver(String productSerialNumber){
 
         //TODO: Initialize and connect to heating!
