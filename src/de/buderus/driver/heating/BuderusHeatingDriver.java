@@ -21,10 +21,8 @@ public class BuderusHeatingDriver {
 
     //Sven
     //Tim
-
     //Heinrich Mettmann
-
-    ///BLABLABLABLA Nils
+    //BLABLABLABLA Nils
 
     public BuderusHeatingDriver(String productSerialNumber){
 
