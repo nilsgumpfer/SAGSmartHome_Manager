@@ -17,7 +17,7 @@ public class BuderusHeatingDriver {
     private boolean standby;
     private List<String> listOfLogs = new ArrayList<>();
 
-    /*Teeeeeeeeeeeeest*/
+    /*Teeeeeeeeeeest*/
 
     public BuderusHeatingDriver(String productSerialNumber){
 
