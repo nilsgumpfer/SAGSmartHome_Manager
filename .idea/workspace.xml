@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/conrad/driver/weatherstation/ConradWeatherStationDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/electricshutter/driver/shutter/ElectricShutterDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/indoorthermometer/driver/thermometer/IndoorThermometerDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/adapter/heating/ViessmannHeatingAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/adapter/shutter/ElectricShutterAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/adapter/thermometer/IndoorThermometerAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/adapter/weatherstation/ConradWeatherStationAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/connection/webservice/consumer/SmartHomeManagerWebServiceConsumer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/connection/webservice/provider/SmartHomeManagerWebServiceDescriptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/connection/webservice/provider/SmartHomeManagerWebServiceProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/devices/heating/HeatingController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/devices/shutter/ShutterController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/devices/thermometer/ThermometerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/devices/weatherstation/WeatherStationController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/manager/commandmanager/CommandInvoker.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/manager/commandmanager/CommandManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/manager/smarthomemanager/SmartHomeManagerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/controller/manager/usermanager/UserManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/device/heating/IHeating.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/device/shutter/IShutter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/device/thermometer/IThermometer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/device/weatherstation/IWeatherStation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/heating/HeatingMicroLogic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/heating/HeatingMicroLogic2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/shutter/ShutterMicroLogic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/shutter/ShutterMicroLogic2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/thermometer/ThermometerMicroLogic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/thermometer/ThermometerMicroLogic2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/weatherstation/WeatherStationMicroLogic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/logic/weatherstation/WeatherStationMicroLogic2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/main/SmartHomeManagerMainClass.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/model/heating/HeatingModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/model/shutter/ShutterModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/model/smarthomemanager/SmartHomeManagerModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/model/thermometer/ThermometerModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/model/weatherstation/WeatherStationModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/smartdevice/heating/SmartHeating.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/smartdevice/shutter/SmartShutter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/smartdevice/thermometer/SmartThermometer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/smartdevice/weatherstation/SmartWeatherStation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/controller/HeatingViewController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/controller/ShutterViewController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/controller/SmartHomeManagerViewController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/controller/ThermometerViewController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/viessmann/driver/heating/ViessmannHeatingDriver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/connection/webservice/consumer/stub/wsimport.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/resources/HeatingView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/resources/ShutterView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/resources/ThermometerModel.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/SAGSmartHome_Manager/de/thm/smarthome/view/resources/WeatherStationView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java" afterPath="$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vpp/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -182,11 +132,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuderusHeatingDriver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuderusHeatingDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vpp/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -224,8 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/smarthomemanager/ISmartHomeController.java" />
-        <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/smarthomemanager/controller/requestmanager/RequestManager.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/smarthomemanager/SmartHomeController.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/smarthomemanager/controller/commandmanager/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/controller/eventmanager/IEventManager.java" />
@@ -275,6 +233,8 @@
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/model/SmartHomeModel.java" />
         <option value="$PROJECT_DIR$/src/de/thm/smarthome/main/manager/controller/requestmanager/RequestManager.java" />
         <option value="$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vpp/.gitignore" />
       </list>
     </option>
   </component>
@@ -303,9 +263,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,6 +275,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SAGSmartHome_Manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SAGSmartHome_Manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SAGSmartHome_Manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vpp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1048,7 +1022,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489599313661</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changed comment">
+      <created>1489605844595</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1489605844595</updated>
+    </task>
+    <task id="LOCAL-00014" summary="gitignore added">
+      <created>1489606832988</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1489606832988</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1143,7 +1131,9 @@
     <MESSAGE value="test push" />
     <MESSAGE value="test" />
     <MESSAGE value="changed serialnumber in buderusdriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed serialnumber in buderusdriver" />
+    <MESSAGE value="changed comment" />
+    <MESSAGE value="gitignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1156,14 +1146,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/heating/logic/IHeatingLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/shutter/controller/IShutterController.java" />
     <entry file="file://$PROJECT_DIR$/src/de/thm/smarthome/main/device/shutter/logic/IShutterLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1459,10 +1441,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vpp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
