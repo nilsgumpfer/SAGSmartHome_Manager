@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java" afterPath="$PROJECT_DIR$/src/de/buderus/driver/heating/BuderusHeatingDriver.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1268,7 +1267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489612304126</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="karle 123">
+      <created>1489612633510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1489612633510</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1366,7 +1372,8 @@
     <MESSAGE value="changed comment" />
     <MESSAGE value="gitignore added" />
     <MESSAGE value="test123" />
-    <option name="LAST_COMMIT_MESSAGE" value="test123" />
+    <MESSAGE value="karle 123" />
+    <option name="LAST_COMMIT_MESSAGE" value="karle 123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
